@@ -1,0 +1,87 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+}
+
+/*Jumbotron 	#https://www.flickr.com/photos/wonderlane/2062184804/in/photolist-49eeGq-aZhtzF-5edEmH-aZhtG4-gtpvp8-Curwec-nvp6uv-8vBVVr-a9GaHB-8Ut2u7-8vEXcj-aZhtH8-gttD2c-7bd3g8-8yZZmV-gwmAC2-9nLGYu-8XTDcm-92gu5k-nxsLKt-gwmN7H-aguvb4-ntCBay-nvHJJs-8UxNG7-nvGccn-9LfGhe-g1EDcJ-9LiucQ-8UxP7J-nvoTXT-9id93S-aZbzuH-7be69Q-7aeJwV-9rnT2E-gtdqFJ-beXpQc-nebTTd-9b45YS-beXdnD-gtjK6g-Ue4ceK-8pHJNP-8vBVTe-bAFqqi-UmU89A-7KbCQT-eR7hdr-9rnT3J */	
+.jumbotron{
+	
+    background: url('./figs/jumbotron.jpg');
+	
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-clip: border-box;
+    
+    margin-top: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+
+.imagem .container-fluid{
+	margin: 0px;
+}
+
+.imagem .container-fluid p{
+	margin-top: -30px;
+	text-align: right;
+	font-size: small;
+	margin-right: -15px;
+}
+
+
+.jumbotron h1{
+	display: block;
+	background-color: #ffffff;
+	opacity: 0.65;
+	text-align: center;
+	font-weight: 700;
+}
+
+.jumbotron h3{
+	display: block;
+	background-color: #ffffff;
+	opacity: 0.65;
+	text-align: center;
+	font-weight: 700;
+}
+
+.navbar {
+/*	background-color: transparent; */
+	margin: 0px;
+}
+
+.navbar-brand
+{
+/*    padding-top: 5px;
+    margin-bottom: 5px; */
+}
+
+
+.presentation .thumbnail {
+	width: 150px;
+}
+
+.panel {
+	background-color: #f5f5f5;
+}
+
+.lista-organizadores li {
+  position: relative;
+  display: block;
+}
+.lista-organizadores a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  
+  color: inherit;
+}
+.lista-organizadores a:hover,
+.lista-organizadores a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
